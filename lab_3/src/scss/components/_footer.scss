@@ -1,0 +1,19 @@
+.footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+
+  &__container {
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: gray;
+    margin-top: 30px;
+    padding: 20px 0px 10px 20px;
+  }
+
+  p {
+    color: #fff;
+  }
+}

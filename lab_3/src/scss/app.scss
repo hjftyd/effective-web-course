@@ -1,0 +1,25 @@
+@import './variables';
+@import './libs/normalize';
+@import './components/all';
+
+body {
+  background-color: $background;
+}
+
+.wrapper {
+  width: calc(100vw - 100px);
+  height: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 100%;
+
+  @media (max-width: 625px) {
+    width: calc(100vw - 30px);
+    margin-top: 20px;
+  }
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
