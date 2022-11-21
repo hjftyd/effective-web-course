@@ -11,6 +11,7 @@ export const Search: React.FC = () => {
         //   value={value}
         //   onChange={onChangeInput}
       />
+      <div className={styles.border}></div>
     </div>
   );
 };
