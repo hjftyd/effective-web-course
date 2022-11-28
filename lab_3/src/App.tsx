@@ -2,9 +2,10 @@ import { Routes, Route } from 'react-router-dom';
 
 import './scss/app.scss';
 import MainLayout from './layouts/MainLayout';
-import { Characters } from './components/Characters';
-import { Comics } from './components/Comics';
-import { Series } from './components/Series';
+
+import { Series } from './pages/series';
+import { Characters } from './pages/characters';
+import { Comics } from './pages/comics';
 
 const App = () => {
   return (

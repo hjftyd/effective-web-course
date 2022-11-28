@@ -22,7 +22,7 @@
 
 .input {
   width: 1450px;
-  padding: 6px 15px;
+  padding: 10px 15px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   font-size: 16px;
   margin-left: 46px;
@@ -40,4 +40,15 @@
   display: flex;
   margin-left: 46px;
   margin-right: 46px;
+}
+
+.button {
+  width: 250px;
+  height: 40px;
+  font-size: 20px;
+  background-color: rgb(255, 204, 0);
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-left: 20px;
 }

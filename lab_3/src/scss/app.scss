@@ -1,25 +1,17 @@
-@import './variables';
 @import './libs/normalize';
-@import './components/all';
 
 body {
-  background-color: $background;
+  background-color: #fff;
 }
 
 .wrapper {
-  width: calc(100vw - 100px);
-  height: 100%;
-  background-color: #fff;
-  border-radius: 10px;
-  width: 100%;
-
-  @media (max-width: 625px) {
-    width: calc(100vw - 30px);
-    margin-top: 20px;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
 }
 
 .container {
-  width: 95%;
+  width: 100%;
   margin: 0 auto;
 }
