@@ -1,15 +1,15 @@
-import { ReactElement } from 'react';
+import { memo } from 'react';
 import { NavLink } from 'react-router-dom';
 import styles from './card.module.scss';
 
-interface CardProps {
+type CardProps = {
   id: number;
   name: string;
   disc: string;
   img: string;
-}
+};
 
-export const Card = ({ name, disc, img, id }: CardProps): ReactElement => {
+export const Card: React.FC<CardProps> = memo(({ id, name, disc, img }) => {
   return (
     <div className={styles.cardContainer}>
       <NavLink to={String(id)} className={styles.imgContainer}>
@@ -21,4 +21,4 @@ export const Card = ({ name, disc, img, id }: CardProps): ReactElement => {
       <p className={styles.disc}>{disc}</p>
     </div>
   );
-};
+});
