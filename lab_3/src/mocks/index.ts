@@ -169,7 +169,7 @@ export const comics: Card[] = [
 export const series: Card[] = [
   {
     id: 0,
-    name: 'Agent Carter?',
+    name: 'Agent Carter',
     disc: "Dedicated to the fight against new Atomic Age threats in the wake of World War II, Peggy must now journey from New York City to Los Angeles for her most dangerous assignment yet. But even as she discovers new friends, a new home – perhaps even a new love – she's about to find out that the bright lights of the post-war Hollywood mask a more sinister threat to everyone she is sworn to protect.",
     img: 'https://terrigen-cdn-dev.marvel.com/content/prod/1x/agentcarters2_lob_crd_03.jpg',
     characters: [0, 1, 2],
