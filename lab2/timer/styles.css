@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    background-color: #000000;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #timer {
+    color: #fff;
+    font-size: 72px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  
+  #inputs {
+    display: flex;
+    justify-content: center;
+    width: 33vw;
+  }
+  
+  input {
+    font-size: inherit;
+    color: #fff;
+    background: none;
+    border: none;
+    outline: none;
+    min-width: 0;
+  }
+  
+  #input-min {
+    text-align: right;
+  }
+  
+  #input-sec {
+    text-align: left;
+  }
+  
+  #buttons,
+  #time-buttons {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 30px;
+  }
+  
+  button {
+    font-size: 24px;
+    border: none;
+    outline: none;
+    padding: 10px 50px;
+    border-radius: 25px;
+    cursor: pointer;
+    min-width: 180px;
+  }
+  
+  button:disabled {
+    opacity: 0.9;
+    cursor: unset;
+  }
+  
